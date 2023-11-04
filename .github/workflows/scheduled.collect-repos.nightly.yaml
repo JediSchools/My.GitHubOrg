@@ -47,7 +47,7 @@ jobs:
       env:
         GH_TOKEN: ${{ steps.generate_token_scanner.outputs.token }}
         ORGANIZATION: ${{ env.ORGANIZATION }}
-        TOPIC: inner-source
+        TOPIC: public
     - name: Adjust score
       uses: actions/github-script@v6
       with:
