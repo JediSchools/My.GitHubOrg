@@ -106,7 +106,7 @@
               <span class="card-media">
                 <img src="{{mediaURL}}"/>
               </span>
-              <div class="card-title">{{title}}
+              <div class="card-title">{{#if isTemplate}}<i class="small material-icons">view_carousel</i> - {{/if}}{{title}}
                 <p class="repoLink"><a href="{{repoURL}}" target="_blank">{{repoTitle}}</a></p>
               </div>
               <div class="card-description">{{description}}</div>
@@ -146,8 +146,9 @@
             <span class="repoLink"><a href="{{repoURL}}" target="_blank">{{repoTitle}}</a></span></td>
           <td class="hidePhone hideTablet"><div class="card-description">{{description}}</div></td>
           <td class="hidePhone hideTablet"><div class="tooltipped" data-position="top" data-tooltip="Is Template">
-            <i class="small material-symbols-outlined">grid_guides</i>
-            <span class="icon-subtitle">{{isTemplate}}</span>
+            {{#if isTemplate}}
+            <i class="small material-icons">view_carousel</i>
+            {{/if}}
           </div></td>
           <td class="hidePhone hideTablet"><div class="tooltipped" data-position="top" data-tooltip="Stars">
             <i class="small material-icons">star</i>
