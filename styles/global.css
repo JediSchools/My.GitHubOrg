@@ -590,3 +590,7 @@ tr:hover {
     margin-bottom: 5px;
     display: inline-block;
 }
+
+.template {
+  background-color: #28a428;
+}
