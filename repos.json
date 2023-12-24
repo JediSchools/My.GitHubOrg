@@ -107,7 +107,7 @@
 			"triage": false,
 			"pull": false
 		},
-		"score": 250,
+		"score": 247,
 		"_InnerSourceMetadata": {
 			"participation": [
 				0,
@@ -129,7 +129,6 @@
 				0,
 				0,
 				1,
-				0,
 				0,
 				0,
 				0,
@@ -161,12 +160,13 @@
 				0,
 				0,
 				0,
+				0,
 				0
 			],
 			"topics": [
 				"public"
 			],
-			"score": 250
+			"score": 247
 		}
 	},
 	{
@@ -277,7 +277,7 @@
 			"triage": false,
 			"pull": false
 		},
-		"score": 301,
+		"score": 297,
 		"_InnerSourceMetadata": {
 			"participation": [
 				0,
@@ -336,7 +336,7 @@
 			"topics": [
 				"public"
 			],
-			"score": 301
+			"score": 297
 		}
 	},
 	{
@@ -447,7 +447,7 @@
 			"triage": false,
 			"pull": false
 		},
-		"score": 330,
+		"score": 327,
 		"_InnerSourceMetadata": {
 			"participation": [
 				0,
@@ -469,8 +469,8 @@
 				0,
 				0,
 				0,
-				0,
 				11,
+				0,
 				0,
 				0,
 				0,
@@ -506,7 +506,7 @@
 			"topics": [
 				"public"
 			],
-			"score": 330
+			"score": 327
 		}
 	},
 	{
@@ -576,7 +576,7 @@
 		"releases_url": "https://api.github.com/repos/JediSchools/a-new-repo/releases{/id}",
 		"deployments_url": "https://api.github.com/repos/JediSchools/a-new-repo/deployments",
 		"created_at": "2023-06-24T00:48:57Z",
-		"updated_at": "2023-10-28T00:34:49Z",
+		"updated_at": "2023-12-24T00:35:46Z",
 		"pushed_at": "2023-06-24T03:36:24Z",
 		"git_url": "git://github.com/JediSchools/a-new-repo.git",
 		"ssh_url": "git@github.com:JediSchools/a-new-repo.git",
@@ -600,7 +600,7 @@
 		"open_issues_count": 0,
 		"license": null,
 		"allow_forking": true,
-		"is_template": false,
+		"is_template": true,
 		"web_commit_signoff_required": false,
 		"topics": [
 			"public"
@@ -617,10 +617,9 @@
 			"triage": false,
 			"pull": false
 		},
-		"score": 378,
+		"score": 456,
 		"_InnerSourceMetadata": {
 			"participation": [
-				0,
 				0,
 				0,
 				0,
@@ -671,12 +670,13 @@
 				0,
 				0,
 				0,
+				0,
 				0
 			],
 			"topics": [
 				"public"
 			],
-			"score": 378
+			"score": 456
 		}
 	},
 	{
@@ -794,7 +794,7 @@
 			"triage": false,
 			"pull": false
 		},
-		"score": 476,
+		"score": 472,
 		"_InnerSourceMetadata": {
 			"participation": [
 				0,
@@ -840,8 +840,8 @@
 				0,
 				0,
 				0,
-				0,
 				1,
+				0,
 				0,
 				0,
 				0,
@@ -854,7 +854,7 @@
 				"public",
 				"inner-source"
 			],
-			"score": 476
+			"score": 472
 		}
 	}
 ]
