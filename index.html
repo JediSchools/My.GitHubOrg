@@ -209,6 +209,11 @@
         <article>
           <h4>{{title}}</h4>
           <p class="repoLink"><a href="{{repoURL}}" target="_blank">{{repoTitle}}</a></p>
+          {{#if isTemplate}}
+          <div class="blue card-action darken-1">
+            <a class="white-text" href="{{templateUrl}}" target="_blank">Use Template</a>
+          </div>
+          {{/if}}
           <p>{{description}}</p>
           {{#if topics}}<p><b>Topics:</b><br/>
             {{#each topics}}{{#if this}}<span class='pill'>{{this}}</span> {{/if}}{{/each}}
