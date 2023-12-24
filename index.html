@@ -73,6 +73,7 @@
           <th>Logo</th>
           <th>Name</th>
           <th class="hidePhone hideTablet">Description</th>
+          <th class="hidePhone hideTablet">Template</th>
           <th class="hidePhone hideTablet">Stars</th>
           <th class="hidePhone hideTablet">Issues</th>
           <th class="hidePhone hideTablet">Forks</th>
@@ -100,7 +101,7 @@
     <script id="card-template" type="text/x-handlebars-template">
       <div>
         <div class="col l4 s12 m6">
-          <div class="card hoverable" onclick="showModal({{id}}, event)">
+          <div class="card hoverable {{isTemplate}}" onclick="showModal({{id}}, event)">
             <div class="card-content">
               <span class="card-media">
                 <img src="{{mediaURL}}"/>
@@ -144,6 +145,10 @@
           <td><b>{{title}}</b><br/>
             <span class="repoLink"><a href="{{repoURL}}" target="_blank">{{repoTitle}}</a></span></td>
           <td class="hidePhone hideTablet"><div class="card-description">{{description}}</div></td>
+          <td class="hidePhone hideTablet"><div class="tooltipped" data-position="top" data-tooltip="Is Template">
+            <i class="small grid_guides">grid_guides</i>
+            <span class="icon-subtitle">{{isTemplate}}</span>
+          </div></td>
           <td class="hidePhone hideTablet"><div class="tooltipped" data-position="top" data-tooltip="Stars">
             <i class="small material-icons">star</i>
             <span class="icon-subtitle">{{stars}}</span>
