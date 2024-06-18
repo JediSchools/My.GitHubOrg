@@ -617,7 +617,7 @@
 			"triage": false,
 			"pull": false
 		},
-		"score": -41,
+		"score": -43,
 		"_InnerSourceMetadata": {
 			"participation": [
 				4,
@@ -676,7 +676,7 @@
 			"topics": [
 				"public"
 			],
-			"score": -41
+			"score": -43
 		}
 	},
 	{
@@ -794,7 +794,7 @@
 			"triage": false,
 			"pull": false
 		},
-		"score": -5,
+		"score": -6,
 		"_InnerSourceMetadata": {
 			"participation": [
 				0,
@@ -802,13 +802,13 @@
 				0,
 				0,
 				0,
-				0,
 				1,
+				0,
 				2,
 				0,
 				0,
-				0,
-				4,
+				3,
+				1,
 				2,
 				0,
 				0,
@@ -854,7 +854,7 @@
 				"public",
 				"inner-source"
 			],
-			"score": -5
+			"score": -6
 		}
 	}
 ]
