@@ -617,7 +617,7 @@
 			"triage": false,
 			"pull": false
 		},
-		"score": -47,
+		"score": -49,
 		"_InnerSourceMetadata": {
 			"participation": [
 				4,
@@ -676,7 +676,7 @@
 			"topics": [
 				"public"
 			],
-			"score": -47
+			"score": -49
 		}
 	},
 	{
@@ -794,7 +794,7 @@
 			"triage": false,
 			"pull": false
 		},
-		"score": -10,
+		"score": -12,
 		"_InnerSourceMetadata": {
 			"participation": [
 				0,
@@ -808,8 +808,8 @@
 				0,
 				0,
 				4,
-				0,
 				2,
+				0,
 				0,
 				0,
 				0,
@@ -854,7 +854,7 @@
 				"public",
 				"inner-source"
 			],
-			"score": -10
+			"score": -12
 		}
 	}
 ]
