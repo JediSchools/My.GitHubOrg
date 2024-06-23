@@ -110,7 +110,7 @@
 		"score": -50,
 		"_InnerSourceMetadata": {
 			"participation": [
-				4,
+				0,
 				0,
 				0,
 				0,
@@ -617,10 +617,10 @@
 			"triage": false,
 			"pull": false
 		},
-		"score": -49,
+		"score": -50,
 		"_InnerSourceMetadata": {
 			"participation": [
-				4,
+				0,
 				0,
 				0,
 				0,
@@ -676,7 +676,7 @@
 			"topics": [
 				"public"
 			],
-			"score": -49
+			"score": -50
 		}
 	},
 	{
@@ -794,7 +794,7 @@
 			"triage": false,
 			"pull": false
 		},
-		"score": -12,
+		"score": -13,
 		"_InnerSourceMetadata": {
 			"participation": [
 				0,
@@ -814,8 +814,8 @@
 				0,
 				0,
 				0,
-				0,
 				1,
+				0,
 				0,
 				0,
 				0,
@@ -854,7 +854,7 @@
 				"public",
 				"inner-source"
 			],
-			"score": -12
+			"score": -13
 		}
 	}
 ]
