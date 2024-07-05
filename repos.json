@@ -794,7 +794,7 @@
 			"triage": false,
 			"pull": false
 		},
-		"score": -26,
+		"score": -27,
 		"_InnerSourceMetadata": {
 			"participation": [
 				0,
@@ -805,8 +805,8 @@
 				2,
 				0,
 				0,
-				3,
-				1,
+				4,
+				0,
 				2,
 				0,
 				0,
@@ -854,7 +854,7 @@
 				"public",
 				"inner-source"
 			],
-			"score": -26
+			"score": -27
 		}
 	}
 ]
